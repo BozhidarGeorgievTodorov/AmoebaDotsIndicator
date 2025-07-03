@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AmoebaDotsIndicator">
+        <attr name="dotRadius" format="dimension" />
+        <attr name="dotCount" format="integer" />
+        <attr name="dotColor" format="color" />
+        <attr name="bodyColor" format="color" />
+        <attr name="animationDuration" format="integer" />
+    </declare-styleable>
+</resources>
