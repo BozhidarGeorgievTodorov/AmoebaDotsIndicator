@@ -2,7 +2,7 @@
 
 A customizable animated dots indicator for ViewPager2, featuring smooth "amoeba"-style transitions between dots. Supports light and dark themes with automatic color adaptation, plus full color and size customization.
 
-![AmoebaDotsIndicator demo](../../Desktop/AmoebaDotsIndicator/assets/amoebadots_demo.gif)
+![AmoebaDotsIndicator demo](assets/amoebadots_demo.gif)
 
 ---
 
