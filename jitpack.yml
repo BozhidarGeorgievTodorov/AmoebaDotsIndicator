@@ -2,4 +2,4 @@ jdk:
   - openjdk17
 
 install:
-  - ./gradlew :AmoebaDotsIndicator:assembleRelease
+  - ./gradlew clean :AmoebaDotsIndicator:publishReleasePublicationToMavenLocal --stacktrace --info
