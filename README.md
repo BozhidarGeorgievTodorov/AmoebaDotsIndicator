@@ -20,12 +20,14 @@ A customizable animated dots indicator for ViewPager2, featuring smooth "amoeba"
 
 Add the library to your project:
 ```gradle
+// settings.gradle.kts
 repositories {
     google()
     mavenCentral()
     maven { url = uri("https://jitpack.io")}
 }
 
+// build.gradle.kts
 dependencies {
     implementation("com.github.BozhidarGeorgievTodorov:AmoebaDotsIndicator:v1.0.0")
 }
