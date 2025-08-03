@@ -29,7 +29,7 @@ repositories {
 
 // build.gradle.kts
 dependencies {
-    implementation("com.github.BozhidarGeorgievTodorov:AmoebaDotsIndicator:v1.0.0")
+    implementation("com.github.BozhidarGeorgievTodorov:AmoebaDotsIndicator:1.0.2")
 }
 
 ```
@@ -63,7 +63,7 @@ Include the indicator in your layout. No need to specify colors unless you want 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-<com.trbrnapps.amoebadotsindicator.AmoebaDotsIndicator
+<com.bgt.amoebadotsindicator.AmoebaDotsIndicator
     android:id="@+id/indicator"
     android:layout_width="match_parent"
     android:layout_height="60dp"
@@ -90,7 +90,7 @@ Make sure your ViewPager2 adapter properly implements `getItemCount()` so the in
 
 You can customize colors, size, and animation duration either in XML:
 ```xml
-<com.trbrnapps.amoebadotsindicator.AmoebaDotsIndicator
+<com.bgt.amoebadotsindicator.AmoebaDotsIndicator
     android:layout_width="match_parent"
     android:layout_height="60dp"
     app:dotRadius="10dp"                     <!-- Default: 4dp -->
